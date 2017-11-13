@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元宝数量</title>
+    <!--宽,手动缩放,初始缩放比例,允许用户缩放到的最大比例,允许用户缩放到的最小比例-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--设置根字节的字体大小-->
+    <script>
+        document.documentElement.style.fontSize = document.documentElement.clientWidth * 100 / 375 + 'px';
+        window.onresize = function () {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth * 100 / 375 + 'px';
+        }
+    </script>
+    <!--公共css文件-->
+    <link rel="stylesheet" href="../public/css/reset.css">
+    <link rel="stylesheet" href="../css/publi.css">
+</head>
+<body>
+<!--<div class="Member-tit">
+    <div class="tit-zt"></div>
+    <div class="tit-titC">
+        <span></span>
+        <p>会员状态</p>
+        <i class="hy-text"></i>
+    </div>
+
+</div>-->
+<div class="acer_len_box">
+    <div class="box-bg">
+        <p class="box-bg-text">我的元宝</p>
+        <span>0</span>
+    </div>
+    <p>拉的设计费拉圣诞节福利大啥框架法律手拉的设计费拉圣诞节福利大</p>
+    <a class="botton" href="javascript:;">去兑换</a>
+
+</div>
+
+<!--公共js文件-->
+<script src="../public/js/zepto.min.js"></script>
+<script src="../public/js/config.js"></script>
+<script src="../public/js/handlebars-v4.0.10.js"></script>
+<script src="../public/js/public.js"></script>
+<!--本页面js-->
+<script src="../js/gift_list.js"></script>
+
+</body>
+</html>

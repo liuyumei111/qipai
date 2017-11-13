@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>礼包列表</title>
+    <!--宽,手动缩放,初始缩放比例,允许用户缩放到的最大比例,允许用户缩放到的最小比例-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--设置根字节的字体大小-->
+    <script>
+        document.documentElement.style.fontSize = document.documentElement.clientWidth * 100 / 375 + 'px';
+        window.onresize = function () {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth * 100 / 375 + 'px';
+        }
+    </script>
+    <!--公共css文件-->
+    <link rel="stylesheet" href="../public/css/reset.css">
+    <link rel="stylesheet" href="../css/publi.css">
+</head>
+<body>
+<!--<div class="Member-tit">
+    <div class="tit-zt"></div>
+    <div class="tit-titC">
+        <span></span>
+        <p>会员状态</p>
+        <i class="hy-text"></i>
+    </div>
+
+</div>-->
+<div class="giftList_box">
+    <ul>
+        <li>
+        <img src="../images/1.png" alt="">
+        <span class="youhui">优惠礼包一</span>
+    </li>
+        <li>
+            <img src="../images/2.png" alt="">
+            <span class="youhui">优惠礼包一</span>
+        </li>
+        <li>
+            <img src="../images/3.png" alt="">
+            <span class="youhui">优惠礼包一</span>
+        </li>
+        <li>
+            <img src="../images/1.png" alt="">
+            <span class="youhui">优惠礼包一</span>
+        </li>
+        <li>
+            <img src="../images/2.png" alt="">
+            <span class="youhui">优惠礼包一</span>
+        </li>
+        <li>
+            <img src="../images/3.png" alt="">
+            <span class="youhui">优惠礼包一</span>
+        </li>
+
+    </ul>
+    <span>没有更多礼品啦!</span>
+</div>
+
+<!--公共js文件-->
+<script src="../public/js/zepto.min.js"></script>
+<script src="../public/js/config.js"></script>
+<script src="../public/js/handlebars-v4.0.10.js"></script>
+<script src="../public/js/public.js"></script>
+<!--本页面js-->
+<script src="../js/gift_list.js"></script>
+
+</body>
+</html>

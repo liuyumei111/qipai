@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>礼包详情</title>
+    <!--宽,手动缩放,初始缩放比例,允许用户缩放到的最大比例,允许用户缩放到的最小比例-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--设置根字节的字体大小-->
+    <script>
+        document.documentElement.style.fontSize = document.documentElement.clientWidth * 100 / 375 + 'px';
+        window.onresize = function(){
+            document.documentElement.style.fontSize = document.documentElement.clientWidth * 100 / 375 + 'px';
+        }
+    </script>
+    <!--公共css文件-->
+    <link rel="stylesheet" href="../public/css/reset.css">
+    <link rel="stylesheet" href="../css/publi.css">
+</head>
+<body>
+<!--<div class="Member-tit">
+    <div class="tit-zt"></div>
+    <div class="tit-titC">
+        <span></span>
+        <p>会员状态</p>
+        <i class="hy-text"></i>
+    </div>
+
+</div>-->
+<div class="good_Deta-box">
+    <div class="box-top">
+        <div class="box-top-img">
+            <img src="../images/wddd.png" alt="">
+        </div>
+        <div class="box-top-text">
+            <div class="name-text">
+                <p>优惠礼包一：智能家居吸尘器</p>
+                <span>
+                    <i>3</i>
+                </span>
+            </div>
+            <div class="name-text1">
+                <p>会员专享会员价</p>
+                <span>99元宝</span><s>120元宝</s>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="box-bottom">
+        <ul>
+            <p>礼包内容</p>
+            <li>
+                <span>三合一数据线</span>
+                <span>价值30元宝数</span>
+            </li>
+            <li>
+                <span>三合一数据线</span>
+                <span>价值30元宝数</span>
+            </li>
+            <li>
+                <span>三合一数据线</span>
+                <span>价值30元宝数</span>
+            </li>
+            <li>
+                <span>三合一数据线</span>
+                <span>价值30元宝数</span>
+            </li>
+        </ul>
+
+    </div>
+
+
+</div>
+
+<!--公共js文件-->
+<script src="../public/js/zepto.min.js"></script>
+<script src="../public/js/config.js"></script>
+<script src="../public/js/handlebars-v4.0.10.js"></script>
+<script src="../public/js/public.js"></script>
+<!--本页面js-->
+<script src="../js/good_Detail.js"></script>
+
+</body>
+</html>

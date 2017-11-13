@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>待付款</title>
+    <!--宽,手动缩放,初始缩放比例,允许用户缩放到的最大比例,允许用户缩放到的最小比例-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--设置根字节的字体大小-->
+    <script>
+        document.documentElement.style.fontSize = document.documentElement.clientWidth * 100 / 375 + 'px';
+        window.onresize = function () {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth * 100 / 375 + 'px';
+        }
+    </script>
+    <!--公共css文件-->
+    <link rel="stylesheet" href="../public/css/reset.css">
+    <link rel="stylesheet" href="../css/publi.css">
+</head>
+<body>
+<!--<div class="Member-tit">
+    <div class="tit-zt"></div>
+    <div class="tit-titC">
+        <span></span>
+        <p>会员状态</p>
+        <i class="hy-text"></i>
+    </div>
+
+</div>-->
+<div class="myOrder_box">
+    <div class="box-tabH">
+        <a href="my-Orders.html">全部</a>
+        <a href="javascript:;" class="a-active">待付款</a>
+        <a href="my-Orders2.html">待收货</a>
+        <a href="my-Orders3.html">已完成</a>
+        <a href="my-Orders4.html">已取消</a>
+    </div>
+
+    <div class="box-tabC">
+        <ul class="tabC-list">
+            <li class="list-item">
+                <a href="orders_detail1.html">
+                    <div class="item-dec">
+                        <div class="item-dec-img">
+                            <img src="../images/wddd.png" alt="">
+                        </div>
+                        <div class="item-dec-text">
+                            <p>卡的风景哈考多少分卡死的话费asdfasfasdfa卡</p>
+                            <p>
+                                <span>商品价格：</span>
+                                <span>8000</span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="orders_detail1.html">
+                    <div class="item-dec">
+                        <div class="item-dec-img">
+                            <img src="../images/wddd.png" alt="">
+                        </div>
+                        <div class="item-dec-text">
+                            <p>卡的风景哈考多少分卡死的话费asdfasfasdfa卡</p>
+                            <p>
+                                <span>商品价格：</span>
+                                <span>8000</span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <div class="item-footer">
+                    <span></span>
+                    <span>共两件商品</span>
+                    <span>实付款500元</span>
+                </div>
+            </li>
+            <li class="list-item">
+                <a href="orders_detail1.html">
+                    <div class="item-dec">
+                        <div class="item-dec-img">
+                            <img src="../images/wddd.png" alt="">
+                        </div>
+                        <div class="item-dec-text">
+                            <p>卡的风景哈考多少分卡死的话费asdfasfasdfa卡</p>
+                            <p>
+                                <span>商品价格：</span>
+                                <span>8000</span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="orders_detail1.html">
+                    <div class="item-dec">
+                        <div class="item-dec-img">
+                            <img src="../images/wddd.png" alt="">
+                        </div>
+                        <div class="item-dec-text">
+                            <p>卡的风景哈考多少分卡死的话费asdfasfasdfa卡</p>
+                            <p>
+                                <span>商品价格：</span>
+                                <span>8000</span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <div class="item-footer">
+                    <span></span>
+                    <span>共两件商品</span>
+                    <span>实付款500元</span>
+                </div>
+            </li>
+            <li class="list-item">
+                <a href="orders_detail1.html">
+                    <div class="item-dec">
+                        <div class="item-dec-img">
+                            <img src="../images/wddd.png" alt="">
+                        </div>
+                        <div class="item-dec-text">
+                            <p>卡的风景哈考多少分卡死的话费asdfasfasdfa卡</p>
+                            <p>
+                                <span>商品价格：</span>
+                                <span>8000</span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="orders_detail1.html">
+                    <div class="item-dec">
+                        <div class="item-dec-img">
+                            <img src="../images/wddd.png" alt="">
+                        </div>
+                        <div class="item-dec-text">
+                            <p>卡的风景哈考多少分卡死的话费asdfasfasdfa卡</p>
+                            <p>
+                                <span>商品价格：</span>
+                                <span>8000</span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <div class="item-footer">
+                    <span></span>
+                    <span>共两件商品</span>
+                    <span>实付款500元</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<!--公共js文件-->
+<script src="../public/js/zepto.min.js"></script>
+<script src="../public/js/config.js"></script>
+<script src="../public/js/handlebars-v4.0.10.js"></script>
+<script src="../public/js/public.js"></script>
+<!--本页面js-->
+<script src="../js/my-Order.js"></script>
+
+</body>
+</html>

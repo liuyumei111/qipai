@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>会员状态</title>
+    <!--宽,手动缩放,初始缩放比例,允许用户缩放到的最大比例,允许用户缩放到的最小比例-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--设置根字节的字体大小-->
+    <script>
+        document.documentElement.style.fontSize = document.documentElement.clientWidth * 100 / 375 + 'px';
+        window.onresize = function(){
+            document.documentElement.style.fontSize = document.documentElement.clientWidth * 100 / 375 + 'px';
+        }
+    </script>
+    <!--公共css文件-->
+    <link rel="stylesheet" href="../public/css/reset.css">
+    <link rel="stylesheet" href="../css/publi.css">
+</head>
+<body>
+<div class="Member-tit">
+    <div class="tit-zt"></div>
+    <div class="tit-titC">
+        <span></span>
+        <p>会员状态</p>
+        <i class="hy-text"></i>
+    </div>
+
+</div>
+<div class="Member-box">
+    <div class="box-card">
+        <div class="box-card-bg">
+            <p>钻石会员</p>
+            <p>邀请人数</p>
+            <p>3人</p>
+        </div>
+    </div>
+    <ul class="box-list">
+        <li>
+            <span>邀请用户</span>
+            <span>邀请时间</span>
+            <span>状态</span>
+        </li>
+        <li>
+            <span>xdlsd147</span>
+            <span>2017-10-22</span>
+            <span>成功</span>
+        </li>
+        <li>
+            <span>xdlsd147</span>
+            <span>2017-10-22</span>
+            <span>成功</span>
+        </li>
+        <li>
+            <span>xdlsd147</span>
+            <span>2017-10-22</span>
+            <span>成功</span>
+        </li>
+    </ul>
+
+
+
+</div>
+<div class="layer">
+    <div class="layer-con">
+        <h2>会员等级说明<i class="close"></i></h2>
+        <div class="layer-det">
+            <p>1.游戏邀请有效游玩人数5</p>
+            <p>2.游戏邀请有效游玩人数5</p>
+            <p>3.游戏邀请有效游玩人数5</p>
+            <p  class="sm">说明：游戏邀请有游戏邀请有效游玩人数5游戏邀请5游戏邀请有效游玩人数5游戏邀请有效游玩人数5游</p>
+        </div>
+    </div>
+</div>
+
+
+<!--公共js文件-->
+<script src="../public/js/zepto.min.js"></script>
+<script src="../public/js/config.js"></script>
+<script src="../public/js/handlebars-v4.0.10.js"></script>
+<script src="../public/js/public.js"></script>
+<!--本页面js-->
+<script src="../js/Member.js"></script>
+
+</body>
+</html>
